@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.pagina{
+    background-color: aqua;
+    background: linear-gradient(135deg, rgba(88,9,121,1) 0%, rgba(150,10,140,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 10px;
+}
+.titulo{
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    margin: 20px;
+}
+.texto{
+    color: #ffffff;
+    text-align: center;
+    max-width: 75%;
+    margin: 20px;
+}
+.links >a{
+    margin: 15px;
+}
